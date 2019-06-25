@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:layout_marginBottom="10dp">
+
+    <ImageView android:layout_width="300dp"
+               android:layout_height="300dp"
+               android:background="#000"
+               android:id="@+id/img"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_alignBottom="@id/img"
+                  android:paddingLeft="10dp"
+                 android:paddingBottom="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:text="Heading"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:id="@+id/address"
+                android:textStyle="bold"
+                android:text="City's best haunts for drinks"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:id="@+id/description"
+                android:textStyle="bold"
+                android:text="20 Places"/>
+    </LinearLayout>
+</RelativeLayout>
